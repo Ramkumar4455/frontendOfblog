@@ -17,7 +17,7 @@ function Popup({ passEdit,closeEdit}) {
             };
            passEdit(newBlog)
         };
- 
+  
         function close(){
             closeEdit()
         }
