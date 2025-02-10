@@ -23,4 +23,4 @@ function BlogDetails({ datas }) {
   );
 }
  
-export default BlogDetails;
+export default BlogDetails; 
