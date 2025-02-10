@@ -1,11 +1,10 @@
-/* Global Styles */
+
 body {
   left: 0px;
   top: 0px;
   background-color: #000000;
 }
 
-/* Add Blog Container */
 .add-blog-container {
   position: fixed;
   right: 0;
@@ -72,7 +71,7 @@ grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: space-between;
 }
-/* Blog Item */
+
 .blog-item {
   display: flex;
   border: 1px solid #ffffff;
@@ -98,7 +97,7 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 
-/* Blog Content */
+
 .blog-content {
  
   width: 100%;
@@ -149,7 +148,7 @@ grid-template-columns: 1fr 1fr 1fr;
   background-color: #45a049;
 }
 
-/* Edit Blog Container */
+
 .edit-blog-container {
   position: fixed;
   top: 50%;
@@ -180,7 +179,7 @@ grid-template-columns: 1fr 1fr 1fr;
   height: 200px;
 }
 
-/* Add Button */
+
 .AddButton {
   height: 50px;
   background-color: black;
@@ -195,7 +194,7 @@ grid-template-columns: 1fr 1fr 1fr;
   transform: scale(1.01);
 }
 
-/* Close Button */
+
 .X {
   width: 20px;
   border-radius: 50px;
@@ -212,7 +211,7 @@ grid-template-columns: 1fr 1fr 1fr;
   cursor: pointer;
 }
 
-/* Card Container */
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -267,7 +266,7 @@ grid-template-columns: 1fr 1fr 1fr;
   color: #ffffff;
 }
 
-/* Header */
+
 .HeaderC {
   z-index: 500;
   color: white;
@@ -305,7 +304,7 @@ grid-template-columns: 1fr 1fr 1fr;
   color: blue;
 }
 
-/* Logo */
+
 .Logo {
   flex: 2;
   display: flex;
@@ -317,7 +316,7 @@ grid-template-columns: 1fr 1fr 1fr;
   color: white;
 }
 
-/* Image */
+
 .CR7 {
   height: 100%;
   margin-left: 40px;
@@ -327,7 +326,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
 
 
-/* Blog Buttons */
+
 .delete-btn,
 .edit-btn {
   border: none;
