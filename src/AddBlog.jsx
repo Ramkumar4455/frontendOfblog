@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
  
-function AddBlog({ datas, addData,id }) {
+function AddBlog({ datas, addData }) {
    
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -10,7 +10,6 @@ function AddBlog({ datas, addData,id }) {
  
     const add = () => {
         const newBlog = {
-            id:id,
             title: name,
             email: email,
             url: url,
